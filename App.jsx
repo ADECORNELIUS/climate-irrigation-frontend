@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 
-const API_BASE = "https://REPLACE_WITH_YOUR_RENDER_BACKEND_URL"
+const API_BASE = "https://climate-irrigation-backend.onrender.com"
 
 export default function App() {
   const [fields, setFields] = useState([])
